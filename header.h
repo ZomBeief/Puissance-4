@@ -1,7 +1,7 @@
 typedef struct joueur
 {
     int x;
-    char z;
+    int z;
 }joueur;
 
 void print(joueur);
