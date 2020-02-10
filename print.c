@@ -1,24 +1,26 @@
 #include <stdio.h>
-typedef struct position
+typedef struct joueur
 {
     int x;
     int y;
-}position;
+}joueur;
 
-void print(position a);
+void print(joueur);
 
 int main(int argc, const char * argv[]) {
-    position a;
-    print(position a);
+
+    joueur a;
+    print(x);
 
     return 0;
 }
 
-void print(){
+void print(joueur){
     printf("  1   2   3   4   5   6   7  \n");
+    char a,b,c,d,e,f,g;
     for (int i=0; i<7; i++) {
         printf("+---+---+---+---+---+---+---+\n");
-        printf("|   |   |   |   |   |   |   |%d\n",i+1);
+        printf("| %c | %c | %c | %c | %c | %c | %c |%d\n",,,,,,i+1);
     }
     printf("+---+---+---+---+---+---+---+\n");
 }
