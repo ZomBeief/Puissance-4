@@ -1,3 +1,3 @@
 # Puissance-4
 adrien
-nique swann
+nique swann et alex
