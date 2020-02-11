@@ -1,8 +1,21 @@
 int tour(){
 
-do {
-scanf("%d";& x );
-}
-while(x<7 || x>1);
+int K=0;
 
+do {
+  scanf("%d";& x );
+}
+while(x<=7 || x>=1);
+
+do{
+  K++
+
+}
+  while(x<=7 || x>=1);
+
+  K=K%2
+
+  int joueur1=0;
+
+  int joueur2=1;
 }
