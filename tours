@@ -1,21 +1,24 @@
 int tour(){
 
-int K=0;
+int x;
+int K;
 
 do {
-  scanf("%d";& x );
+	scanf("%d", & x );
 }
-while(x<=7 || x>=1);
+while(x<1|| x>7);
 
 do{
-  K++
+	K++;
 
 }
-  while(x<=7 || x>=1);
+  while(1);
 
-  K=K%2
+	K=K%2;
 
-  int joueur1=0;
+	int joueur1=0;
 
-  int joueur2=1;
+	int joueur2=1;
+
+	printf("x=%d et k=%d", x, K);
 }
