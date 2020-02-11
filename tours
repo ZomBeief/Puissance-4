@@ -1,6 +1,6 @@
 int tour(){
 
-int x;
+
 int K;
 
 do {
@@ -20,5 +20,4 @@ do{
 
 	int joueur2=1;
 
-	printf("x=%d et k=%d", x, K);
 }
